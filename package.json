@@ -1,0 +1,13 @@
+{
+    "name": "chaochao",
+    "version": "0.0.1",
+    "description": "Multiplayer web based slow paced racing game",
+    "dependencies": {
+        "express": "^4.17.1",
+        "jquery": "^3.6.0",
+        "socket.io": "^4.1.3"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}

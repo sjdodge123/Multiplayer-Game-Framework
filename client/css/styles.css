@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
+html{
+    overflow: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    
+}
+
+#main{
+	background: #F0F0F0;
+	position: absolute;
+	overflow: none;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin-top: -10%;
+}
+
+#gameWindow{
+	background: #F0F0F0;
+	position: relative;
+	overflow: none;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+
+#game-title{
+    font-family: "San Francisco";
+    font-size: 72px;
+}
+
+.play-container {
+    background-color: white;
+    height: 200px;
+    width:  50%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px #B2B2B2;
+}

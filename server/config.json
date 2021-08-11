@@ -1,0 +1,14 @@
+{
+    "port": 3000,
+    "serverTickSpeed": 33.33,
+    "playerBaseRadius": 7.5,
+    "worldWidth":1366,
+    "worldHeight":768,
+    "maxPlayersInRoom" : 5,
+    "forceConstant" :5000000,
+
+    "playerDragCoeff": 0.045,
+    "playerBrakeCoeff": 0.235,
+    "playerMaxSpeed":1500,
+    "playerBaseAcel":500
+}
