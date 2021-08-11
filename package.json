@@ -1,7 +1,7 @@
 {
-    "name": "chaochao",
+    "name": "multiplayer-game-framework",
     "version": "0.0.1",
-    "description": "Multiplayer web based slow paced racing game",
+    "description": "Heroku compatible Node JS implementation of a web game framework. Utilizes Socket IO",
     "dependencies": {
         "express": "^4.17.1",
         "jquery": "^3.6.0",
