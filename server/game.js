@@ -395,6 +395,36 @@ class Player extends Circle {
 	getSpeedBonus(){
 		return 0;
 	}
+	handleHit(object){
+		if(object.isWall){
+			messenger.messageUser(this.id,"collideWithObject");
+			_engine.preventMovement(this,object,this.dt);
+		}
+		if(object.owner != this.id && object.alive && object.damage != null){
+			/*
+			//Figure out damage
+			if(object.isBeam == true){
+				if(object.dealingDamage == true){
+					this.takeDamage(object.damage);
+				}
+			} else{
+				this.takeDamage(object.damage);
+			}
+
+			//Alert things
+			if(this.health < 1){
+				this.iDied(object.owner);
+			}
+			if(object.isBeam == true){
+				if(object.dealingDamage == true){
+					messenger.messageUser(object.owner,"shotLanded",{id:this.id,damage:object.damage,crit:(object.isCrit == true)});
+				}
+				return;
+			}
+			messenger.messageUser(object.owner,"shotLanded",{id:this.id,damage:object.damage,crit:(object.isCrit == true)});
+			*/
+		}
+	}
 }
 
 
